@@ -11,7 +11,7 @@ from pymongo import MongoClient
 
 class GithubPipeline(object):
     def __init__(self):
-        MONGO_URI = "mongodb+srv://witl:FWULU642L6YwsLof@cluster0.55iic.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" 
+        MONGO_URI = "" 
         MONGO_DATABASE = 'github_db'
     
         client = MongoClient(MONGO_URI)
