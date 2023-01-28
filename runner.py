@@ -5,8 +5,8 @@ from github import settings
 from github.spiders.github_spider import GithubSpider
 
 
-if __name__ == '__main__':
-    repo = ''
+if __name__ == "__main__":
+    repo = ""
 
     crawler_settings = Settings()
     crawler_settings.setmodule(settings)
